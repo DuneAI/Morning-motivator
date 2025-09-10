@@ -1,0 +1,41 @@
+{
+  "name": "morning-motivator",
+  "private": true,
+  "version": "0.2.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "worker": "tsx worker/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "@upstash/redis": "^1.31.4",
+    "bullmq": "^5.7.9",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.0.0",
+    "next": "14.2.5",
+    "next-auth": "^5.0.0-beta.20",
+    "nodemailer": "^6.9.14",
+    "openai": "^4.57.1",
+    "pino": "^9.3.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "twilio": "^5.3.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "prisma": "^5.15.0",
+    "tailwindcss": "^3.4.3",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5"
+  }
+}
